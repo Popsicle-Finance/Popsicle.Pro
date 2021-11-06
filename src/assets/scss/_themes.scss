@@ -1,0 +1,455 @@
+$dark: #252423;
+$dark-accent: #2c2c2c;
+$dark-color: #fff;
+$hover: #2bd2f7;
+$hover-color: #fff;
+
+.dark-theme {
+  background: $dark !important;
+  color: $dark-color !important;
+
+  .app_form {
+    background: #252423;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    input {
+      background: #232323;
+      color: #f6f9fa;
+    }
+  }
+
+  .select {
+    background: #2c2c2c !important;
+
+    .options {
+      background: #2c2c2c !important;
+
+      .option {
+        &:hover {
+          background: #252423 !important;
+        }
+      }
+    }
+  }
+
+  &.governance {
+    textarea {
+      color: #fff !important;
+    }
+    .list {
+      &-control {
+        background: #2c2c2c;
+      }
+
+      &-item {
+        &::after {
+          background: #2c2c2c !important;
+          color: #fff !important;
+        }
+      }
+    }
+    .num {
+      background: #252423 !important;
+    }
+
+    * {
+      // color: #fff !important;
+      border-color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    .circle {
+      background: #232323 !important;
+    }
+
+    .governance-rules-power-left {
+      color: #fff;
+      background: #2c2c2c;
+    }
+
+    &-rules {
+      .governance-create-container {
+        background: #2c2c2c !important;
+
+        .box {
+          background: #252423;
+
+          input,
+          textarea {
+            background: #2c2c2c;
+            color: #fff;
+
+            &::placeholder {
+              color: #fff;
+            }
+          }
+
+          .photo {
+            background: #2c2c2c;
+            color: #fff;
+          }
+        }
+
+        .add-btn {
+          background: #2c2c2c;
+          color: #fff;
+        }
+
+        .delete-btn {
+          background: #2c2c2c;
+          color: #fff;
+        }
+      }
+    }
+
+    .voting-power {
+      background: #2c2c2c;
+    }
+
+    .governance-tab {
+      .content {
+        background: #2c2c2c;
+
+        svg {
+          width: 16px;
+          margin-right: 5px;
+          line {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .governance-proposal {
+    &-tabs {
+      &-item {
+        background: #2c2c2c;
+
+        span {
+          background: #333;
+
+          &.active {
+            background: #4d4d4d;
+          }
+
+          &:hover {
+            background: #4d4d4d !important;
+          }
+        }
+      }
+    }
+
+    &-item {
+      .create {
+        background: #2c2c2c;
+      }
+
+      &-body {
+        .box {
+          background: #2c2c2c;
+        }
+      }
+
+      &.current {
+        background: #2c2c2c;
+      }
+
+      &-current {
+        &-info,
+        &-data,
+        &-support,
+        &-votes,
+        &-approve,
+        &-team,
+        &-comments {
+          background: #252423;
+          padding: 20px;
+          border-radius: 10px;
+        }
+
+        &-approve {
+          button {
+            background: #2c2c2c;
+            color: #fff;
+          }
+        }
+
+        &-info {
+          article {
+            &::after {
+              background: #2c2c2c !important;
+              color: #fff !important;
+            }
+          }
+        }
+
+        &-votes {
+          .list {
+            &-item {
+              background: #2c2c2c !important;
+            }
+
+            .circle {
+              background: #252423;
+            }
+          }
+        }
+      }
+
+      .support-tab {
+        background: #2c2c2c;
+      }
+    }
+  }
+
+  .governance-rules {
+    &-power {
+      background: #2c2c2c;
+    }
+
+    &-box {
+      background: #2c2c2c;
+    }
+
+    .btn-gover {
+      background: #2c2c2c;
+    }
+  }
+
+  * {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .price-pending {
+    color: #fff !important;
+  }
+
+  .btn1 {
+    border-color: #2bd2f7 !important;
+  }
+
+  .ice-icon {
+    background: #444;
+  }
+
+  .stage-big {
+    background: transparent;
+  }
+
+  .pin {
+    color: #fff !important;
+  }
+
+  .exp {
+    &-circle {
+      span {
+        background: #fff;
+      }
+    }
+
+    &-desc {
+      background: #222;
+
+      a {
+        color: #fff !important;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .bg-white {
+    background: $dark-accent !important;
+    color: $dark-color !important;
+  }
+
+  .popsicle-stand-table {
+    .dashboard-pools {
+      background: #333 !important;
+      * {
+        border-color: #444 !important;
+      }
+
+      .btn-pool {
+        background: lighten(#333, 10);
+        &:disabled {
+          background: darken(#333, 10);
+        }
+      }
+
+      .dropdown {
+        background: #444;
+        a {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .dashboard-pools-mob {
+      * {
+        border-color: #444 !important;
+      }
+
+      &-head {
+        background: #444;
+      }
+
+      .btn-pool {
+        background: lighten(#333, 10);
+        &:disabled {
+          background: darken(#333, 10);
+        }
+      }
+
+      &-list {
+        &-item {
+          background: #333 !important;
+        }
+      }
+    }
+  }
+
+  footer,
+  header {
+    background: $dark-accent !important;
+    color: $dark-color !important;
+  }
+
+  footer {
+    border-top: 1px solid rgb(43, 39, 39);
+  }
+
+  header {
+    .logo {
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+
+  .btn-grey {
+    background: lighten($dark-accent, 10);
+  }
+
+  .btn1 {
+    &:hover {
+      background: $hover !important;
+      color: $hover-color !important;
+    }
+  }
+
+  .main_section {
+    background: $dark !important;
+  }
+
+  // popsicle stand
+  .table-box {
+    background: $dark !important;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 99999 !important;
+    position: absolute;
+    width: 100%;
+  }
+
+  .table-mob {
+    .top-item {
+      background: $dark !important;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+
+      .top-title {
+        background: $dark !important;
+      }
+    }
+
+    .bottom {
+      div {
+        background: $dark !important;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+    }
+  }
+
+  // staking depotis
+  .deposit_item,
+  .deposit_item2 {
+    background: $dark !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+
+    .col {
+      border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    }
+  }
+
+  // economics
+  .ec-section {
+    h1,
+    p {
+      color: $dark-color !important;
+    }
+  }
+
+  .eco-box {
+    background: $dark-accent !important;
+  }
+
+  // menu
+  .menu {
+    background: $dark-accent !important;
+    overflow: hidden;
+
+    li {
+      a {
+        border-bottom: none;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      li {
+        a {
+          border-bottom: 1px solid $dark-color;
+        }
+      }
+    }
+  }
+  .menu_btn {
+    span {
+      background: $dark-color !important;
+    }
+  }
+
+  // providers
+  .providers {
+    background: $dark-accent !important;
+  }
+
+  .popsicle-stand {
+    background: $dark !important;
+
+    .grid-boxes {
+      .box {
+        background: $dark-accent !important;
+        border: 1px solid $dark;
+        color: $dark-color;
+      }
+    }
+  }
+
+  .partner {
+    background: $dark-accent !important;
+  }
+}
+
+.bg-header {
+  background: #f6f9fa;
+}
+
+header,
+footer {
+  height: 86px !important;
+}

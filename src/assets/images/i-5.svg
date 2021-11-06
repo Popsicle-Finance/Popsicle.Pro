@@ -1,0 +1,23 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="20" cy="20" r="19.5" fill="white" stroke="#F6F9FA"/>
+<g opacity="0.45">
+<g opacity="0.45">
+<path opacity="0.45" d="M13 20.2236L20.3681 24.5753V8L13 20.2236Z" fill="#010101"/>
+</g>
+</g>
+<g opacity="0.8">
+<g opacity="0.8">
+<path opacity="0.8" d="M20.368 8V24.5776L27.7338 20.2259L20.368 8Z" fill="#010101"/>
+</g>
+</g>
+<g opacity="0.45">
+<g opacity="0.45">
+<path opacity="0.45" d="M13 21.6199L20.3681 31.9998V25.9738L13 21.6199Z" fill="#010101"/>
+</g>
+</g>
+<g opacity="0.8">
+<g opacity="0.8">
+<path opacity="0.8" d="M20.368 25.9738V31.9998L27.7384 21.6199L20.368 25.9738Z" fill="#010101"/>
+</g>
+</g>
+</svg>
